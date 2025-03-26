@@ -7,24 +7,24 @@ iframe {
   border: none;
   height: 100%;
   width: 100%;
+  
 }
 .main{
-  display: grid; 
-  
+  display: ;
+  height: 70%
 }
-.left-column {
-  text-align: left;
-  color: #ffffff;
-  
-}
-  
-.right-column {
+
+
+.content {
   width: 100%;
-  height: 100%
+  height: 100%;
+  justify-content: center ;
+  display: inline-block
+ 
 }
 
 header {
-  
+
   color: black;
   text-align: center;
   padding: 10px;
@@ -39,19 +39,14 @@ footer {
   width: 100%;
   bottom: 0;
 }
-body {
-  height: 100%
-}
+
 center {
   height: 100%  
 }
 body {
   font-family: sans-serif;
   margin: 20px;
-}
-
-h1 {
-  text-align: center;
+  height: 100%
 }
 
 form {
@@ -69,7 +64,7 @@ textarea {
   width: 100%;
   padding: 8px;
   margin-bottom: 10px;
-  border: 1px solid #ccc;
+  border: 1px solid #d2042d;
   box-sizing: border-box;
 }
 
@@ -77,29 +72,42 @@ textarea {
   height: 150px;
 }
 
-submit {
+button {
   background-color: #4CAF50;
-  color: #b51a00;
+  color: #000000;
   padding: 10px 20px;
+  border-radius: 20px;
   border: none;
   cursor: pointer;
 }
 
-.link-container {
-  display: flex; 
-  justify-content: left; 
+.menubar {
+  display: inline-block; 
+  justify-content: center; 
+  background-color: grey;
+  border-radius: 20px;
+  padding: 10px
+
 }
 
 .chu {
   background-color: #000000; 
-  padding: 10px 15px; 
+  padding: 5px 10px; 
   margin-right: 5px; 
   border: 1px solid #ccc;
-  text-decoration: none; /* Loại bỏ gạch chân mặc định của liên kết */
-  color: #ffffff; /* Màu chữ */
-  border-radius: 5px; /* Bo tròn góc */
+  text-decoration: none; 
+  color: #ffffff; 
+  border-radius: 10px;
 }
 
-.link-item:hover {
-  background-color: #474747; /* Màu nền khi di chuột qua */
+.chu:hover {
+  background-color: #918d8d;
+}
+  
+
+
+.signin {
+  position: absolute;
+  width: ;
+  height: 962px;
 }
